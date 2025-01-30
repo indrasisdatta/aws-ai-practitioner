@@ -132,3 +132,18 @@ Sagemaker pipelines:
 Sagemaker Canvas (no code)
  
 
+Important Hyperparameters:
+1. Learning rate: (Large or small steps while updating model's weight during training) 
+   Analogy - child sees 10 black dogs. When he sees a white dog, 
+    Desirable learning rate - understand that black color is not important and would look at other defining features 
+	Low learning rate - consider white one as an outlier and believe all dogs are black  
+	High learning rate - instantly believe that all dogs are white even though he has seen more black dogs 	
+		Low learning rate means more training time. More time increases cloud GPU cost.
+		High leanring rate means model may not be able to predict anything accurately. 	
+2. Batch size (no. of training examples used to update the model weight in one iteration)
+    - Smaller batches leads to more stable learning but requires more time to compute 
+	- Larger batches leads to less stable updates but requires less time 
+3. No. of epochs (how many times the model will iterate through training dataset) 
+    - Too many leads to overfitting 
+	- Too less leads to underfitting 
+	
