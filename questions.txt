@@ -1,7 +1,81 @@
 Questions link: https://certyiq.com/papers/amazon/aws-certified-ai-practitioner-aif-c01/1
 
-Q1. A company makes forecasts each quarter to decide how to optimize operations to meet expected demand. The company uses ML models to make these forecasts.
-An AI practitioner is writing a report about the trained ML models to provide transparency and explainability to company stakeholders.
-What should the AI practitioner include in the report to meet the transparency and explainability requirements?
- Ans: Partial Dependency Plots 
- 
+------- KEY AREAS -------
+
+Prompt Management
+. What is to be included in Few shot examples
+. Image not created as per prompt. How to improve the same?
+. Different response required for different age groups. How to manage that? Training or prompt management.
+
+Security
+. Guardrails
+. Choose the use case in which client will have maximum level of security ownership
+· VPC endpoint for S3
+· Private Link
+. How to mitigate potential fraud attacks from an IP address
+
+Inference - 1
+· To get more consistent response - should we reduce or increase temperature
+· Knowledge bases and RAG
+. Identify the activity which happens in Inference
+· RAG pipeline - activities done through offline batch processing
+
+Inference - 2
+· Asynchronous inference
+. Evaluation metrics - BLEU and BERT Score
+. For interactive low latency inferences, which method we will use? 
+  (real time hosting, asynchronous, batch inferences)
+  
+Pricing
+. What impacts price of an FM model
+. When there is no consistent workload and client don't want to give any long-term commitments, which pricing method to
+use? OnDemand or Provisioned Throughput  
+
+Training - 1
+· Unlabeled data to be used for improving the model. Which method to use? 
+  (Continued pretraining / fine tuning / prompt engineering.)
+. Domain adaptation
+. Decision trees can improve transparency in ML models - how classification decision was made.
+. Identify the use case as supervised/unsupervised/reinforcement learning
+
+Training - 2
+. Which instance type has less environmental impact
+. GAN - Generative adversarial Network use case
+· Exploratory data analysis vs feature engineering
+. How to improve overall accuracy during training
+. Chatbot - continuous improvement based on client feedback. Which training method will you use?
+
+Other AWS Tools & Services
+· Comprehend
+· Textract
+· Audit manager
+· QuickSight
+· S3
+. Tool used for access control
+
+Bedrock
+. Why OpenSearch service is suitable for a vector database? 2 reasons
+· Transfer learning
+· Bedrock agent use case
+. Perform sentiment analysis on the written customer reviews. Which tools can be used
+· Enable model invocation logging
+· Tool used to track who is accessing bedrock
+
+SageMaker
+· SageMaker model card
+· SageMaker model monitor
+· SageMaker canvas
+· SageMaker clarify - explainability, bias
+· Feature store functionality
+
+About GenAI
+. What are tokens
+. Identify hallucination example
+. Identify example as plagiarism
+. Generative Al use case from the 4 choices
+. CoT prompting - use case
+· Multi-modal embedding model vs multi-modal generative model
+
+Responsible AI 
+- How to fix bias 
+- Fairness - identify the use case 
