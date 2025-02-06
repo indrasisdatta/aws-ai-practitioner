@@ -1,5 +1,12 @@
 Questions link: https://certyiq.com/papers/amazon/aws-certified-ai-practitioner-aif-c01/1
 
+Udemy Practice test 2:
+Unsure: 15, 17, 
+
+Sagemaker services (Clarify, Model monitor, Jumpstart, Data Wrangler)
+Sagemaker model cards, AI service cards 
+
+
 ------- KEY AREAS -------
 
 Prompt Management
