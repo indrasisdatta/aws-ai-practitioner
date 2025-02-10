@@ -3,8 +3,19 @@ Questions link: https://certyiq.com/papers/amazon/aws-certified-ai-practitioner-
 Udemy Practice test 2:
 Unsure: 15, 17, 
 
+Supervised, unsupervised, semi-supervised - when to use what
 Sagemaker services (Clarify, Model monitor, Jumpstart, Data Wrangler)
 Sagemaker model cards, AI service cards 
+Sagemaker model dashboard 
+Sagemaker model monitor
+Amazon Augmented A2I
+Top P, Top K, Temperature (1 causes hallucination)
+You can use a customized model only in provisioned throughput mode 
+Amazon Inspector - automated security assessment service 
+Validation sets are optional, test sets determine how well the model generalizes 
+Audit Manager - automates collection of evidence to continuously audit AWS usage 
+Interpretability, Explananibility
+
 
 
 ------- KEY AREAS -------
