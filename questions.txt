@@ -9,19 +9,26 @@ Sagemaker model cards, AI service cards
 Sagemaker model dashboard 
 Sagemaker model monitor
 Amazon Augmented A2I
-Top P, Top K, Temperature (1 causes hallucination)
+Top P (the % of most likely candidates the model considers for the next token)
+Top K (the no. of most likely candidates the model considers for the next token)
+Temperature (1 causes hallucination)
 You can use a customized model only in provisioned throughput mode 
 Amazon Inspector - automated security assessment service 
 Validation sets are optional, test sets determine how well the model generalizes 
 Audit Manager - automates collection of evidence to continuously audit AWS usage 
 Interpretability, Explananibility
 
+ML Terms - Pg 143 
+Model improvement techniques - Pg 95
+Model fit, Bias, variance - Pg 172 
+Imp hyperparameters - 189
+AWS Manager serviced - 193 
 
 
 ------- KEY AREAS -------
 
 Prompt Management
-. What is to be included in Few shot examples
+. What is to be included in Few shot examples - example of a task to the model 
 . Image not created as per prompt. How to improve the same?
 . Different response required for different age groups. How to manage that? Training or prompt management.
 
