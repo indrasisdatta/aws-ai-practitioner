@@ -1,5 +1,8 @@
 Questions link: https://certyiq.com/papers/amazon/aws-certified-ai-practitioner-aif-c01/1
 
+AWS Official Practice question set:
+https://awscertificationpractice.benchprep.com/app/aws-certified-ai-practitioner-official-practice-question-set-aif-c01#exams/exam_intro/253853
+
 Udemy Practice test 2:
 Unsure: 15, 17, 
 
