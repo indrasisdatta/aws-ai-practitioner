@@ -27,6 +27,22 @@ Model fit, Bias, variance - Pg 172
 Imp hyperparameters - 189
 AWS Manager serviced - 193 
 
+Least to most operational overhead:
+ - Select and use a specific LLM 
+ - Perform prompt engineering on LLM 
+ - Train a fine-tuned model 
+ - Pre-train a new LLM 
+ 
+RAG - less development effort than Prompt engineering 
+
+Semi-supervised - sentiment analysis, fraud detection 
+Neural network - Supervised 
+Clustering, Dimensionality reduction - Unsupervised 
+
+Prompt engineering, RAG - not a model customization method 
+
+Diffusion models create new data by iteratively making controlled random changes to an initial data sample
+
 
 ------- KEY AREAS -------
 
